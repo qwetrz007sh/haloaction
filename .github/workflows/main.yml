@@ -27,6 +27,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install --prod
+
       - name: 拉取语雀/Notion的文章
         env:
           # Notion相关环境变量
@@ -37,35 +38,31 @@ jobs:
           HALO_TOKEN: ${{ secrets.HALO_TOKEN }}
           # 图床相关环境变量，以腾讯云COS为例
           GITHUB_USER: ${{ secrets.GH_USER }}
-          GITHUB_TOKEN: ${{ secrets.GHTC_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_REPO: ${{ secrets.GH_REPO }}
           GITHUB_HOST: ${{ secrets.GH_HOST }}
           GITHUB_PREFIXKEY: ${{ secrets.GH_PREFIXKEY }}
         run: |
           # 对应package.json中的script.sync
           npm run sync
+
       - name: 配置Git用户名邮箱
         run: |
           git config --global user.name "qwetrz007sh"
           git config --global user.email "coffee55k1@gmail.com"
+
       - name: 提交yuque拉取的文章到GitHub仓库
         run: |
           echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
           git add .
           git commit -m "更新文档" -a
+
       - name: 推送文章到仓库
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: 生成静态文件
         run: |
           # 对应package.json中的script.build
           npm run build
-
-      #- name: 部署到Github Pages
-      #  uses: peaceiris/actions-gh-pages@v3
-      #  with:
-      #    github_token: ${{ secrets.GITHUB_TOKEN }}
-      #    publish_dir: ./public
-      #    commit_message: ${{ github.event.head_commit.message }}
