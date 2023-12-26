@@ -66,6 +66,12 @@ jobs:
         run: |
           # 对应package.json中的script.build
           npm run build
+      - uses: yanzay/notify-telegram@v0.1.0
+        if: always()
+        with:
+        chat: ${{ secrets.chat }} # user id or channel name secret
+        token: ${{ secrets.token }} # token secret
+        status: ${{ job.status }} # do not modify this line
       #- name: 部署到Github Pages
        # uses: peaceiris/actions-gh-pages@v3
         #with:
