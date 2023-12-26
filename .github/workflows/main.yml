@@ -73,7 +73,7 @@ jobs:
             chat_id: ${{ secrets.TELEGRAM_TO }}
             bot_token: ${{ secrets.TELEGRAM_TOKEN }}
             job_status: ${{ job.status }}
-      - name: 部署到Github Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      #- name: 部署到Github Pages
+        #uses: peaceiris/actions-gh-pages@v3
+        #with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
