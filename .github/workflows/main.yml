@@ -70,5 +70,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./public
+          publish_dir: docs/public
+          external_repository: qwetrz007sh/haloaction.github.io
+          publish_branch: master
           commit_message: ${{ github.event.head_commit.message }}
