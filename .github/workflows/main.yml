@@ -37,7 +37,7 @@ jobs:
           HALO_TOKEN: ${{ secrets.HALO_TOKEN }}
           # 图床相关环境变量，以腾讯云COS为例
           GITHUB_USER: ${{ secrets.GH_USER }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHTC_TOKEN }}
           GITHUB_REPO: ${{ secrets.GH_REPO }}
           GITHUB_HOST: ${{ secrets.GH_HOST }}
           GITHUB_PREFIXKEY: ${{ secrets.GH_PREFIXKEY }}
