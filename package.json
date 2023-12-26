@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@elog/cli": "^0.8.0"
+    "@elog/cli": "^0.13.0"
   },
   "scripts": {
     "build": "yarn", 
