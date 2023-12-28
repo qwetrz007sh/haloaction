@@ -1,58 +1,34 @@
 {
   "docs": [
     {
-      "id": "61bc45e4-bdc8-41f7-8d29-7254e5f078d7",
-      "doc_id": "61bc45e4-bdc8-41f7-8d29-7254e5f078d7",
-      "updated": 1703730180000,
+      "id": "5ab903ef-e268-46a9-b0ea-47ea780b5d5a",
+      "doc_id": "5ab903ef-e268-46a9-b0ea-47ea780b5d5a",
+      "updated": 1703749920000,
       "properties": {
         "cover": "",
         "categories": "影视库搭建",
-        "publish": true,
         "excerpt": "",
-        "autoExcerpt": true,
         "tags": [
           "emby"
         ],
+        "permalink": "123123123/",
         "status": "待发布",
-        "Created time": "2023-11-30T02:59:00.000Z",
+        "Created time": "2023-12-28T07:50:00.000Z",
         "pinned": "",
         "public": true,
-        "urlname": "61bc45e4-bdc8-41f7-8d29-7254e5f078d7",
-        "title": "Emby影视库使用说明",
-        "date": "2023-11-30 10:59:00",
-        "updated": "2023-12-28 10:23:00"
-      }
-    },
-    {
-      "id": "58374dfc-75cd-4f27-860c-d18adb6ebf6e",
-      "doc_id": "58374dfc-75cd-4f27-860c-d18adb6ebf6e",
-      "updated": 1703735340000,
-      "properties": {
-        "cover": "",
-        "categories": "影视库搭建",
-        "publish": true,
-        "excerpt": "",
-        "autoExcerpt": true,
-        "tags": [
-          "emby"
-        ],
-        "status": "待发布",
-        "Created time": "2023-12-28T03:47:00.000Z",
-        "pinned": "",
-        "public": true,
-        "urlname": "58374dfc-75cd-4f27-860c-d18adb6ebf6e",
-        "title": "第一次使用必看（网页版）Emby影视库说明",
-        "date": "2023-12-28 11:47:00",
-        "updated": "2023-12-28 11:49:00"
+        "urlname": "5ab903ef-e268-46a9-b0ea-47ea780b5d5a",
+        "title": "123123123",
+        "date": "2023-12-28 15:50:00",
+        "updated": "2023-12-28 15:52:00"
       }
     }
   ],
   "catalog": [
     {
       "object": "page",
-      "id": "58374dfc-75cd-4f27-860c-d18adb6ebf6e",
-      "created_time": "2023-12-28T03:47:00.000Z",
-      "last_edited_time": "2023-12-28T03:49:00.000Z",
+      "id": "5ab903ef-e268-46a9-b0ea-47ea780b5d5a",
+      "created_time": "2023-12-28T07:50:00.000Z",
+      "last_edited_time": "2023-12-28T07:52:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c715efbb-b3fc-4f36-b661-4e216adf5512"
@@ -71,64 +47,22 @@
       "properties": {
         "cover": "",
         "categories": "影视库搭建",
-        "publish": true,
         "excerpt": "",
-        "autoExcerpt": true,
         "tags": [
           "emby"
         ],
+        "permalink": "123123123/",
         "status": "待发布",
-        "Created time": "2023-12-28T03:47:00.000Z",
+        "Created time": "2023-12-28T07:50:00.000Z",
         "pinned": "",
         "public": true,
-        "urlname": "58374dfc-75cd-4f27-860c-d18adb6ebf6e",
-        "title": "第一次使用必看（网页版）Emby影视库说明",
-        "date": "2023-12-28 11:47:00",
-        "updated": "2023-12-28 11:49:00"
+        "urlname": "5ab903ef-e268-46a9-b0ea-47ea780b5d5a",
+        "title": "123123123",
+        "date": "2023-12-28 15:50:00",
+        "updated": "2023-12-28 15:52:00"
       },
-      "url": "https://www.notion.so/Emby-58374dfc75cd4f27860cd18adb6ebf6e",
+      "url": "https://www.notion.so/123123123-5ab903efe26846a9b0ea47ea780b5d5a",
       "public_url": null
-    },
-    {
-      "object": "page",
-      "id": "61bc45e4-bdc8-41f7-8d29-7254e5f078d7",
-      "created_time": "2023-11-30T02:59:00.000Z",
-      "last_edited_time": "2023-12-28T02:23:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "c715efbb-b3fc-4f36-b661-4e216adf5512"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "c715efbb-b3fc-4f36-b661-4e216adf5512"
-      },
-      "cover": null,
-      "icon": null,
-      "parent": {
-        "type": "database_id",
-        "database_id": "a0c61e9b-a4c2-4bc9-a9f7-fd4ec68a3423"
-      },
-      "archived": false,
-      "properties": {
-        "cover": "",
-        "categories": "影视库搭建",
-        "publish": true,
-        "excerpt": "",
-        "autoExcerpt": true,
-        "tags": [
-          "emby"
-        ],
-        "status": "待发布",
-        "Created time": "2023-11-30T02:59:00.000Z",
-        "pinned": "",
-        "public": true,
-        "urlname": "61bc45e4-bdc8-41f7-8d29-7254e5f078d7",
-        "title": "Emby影视库使用说明",
-        "date": "2023-11-30 10:59:00",
-        "updated": "2023-12-28 10:23:00"
-      },
-      "url": "https://www.notion.so/Emby-61bc45e4bdc841f78d297254e5f078d7",
-      "public_url": "https://cosmic-twine-331.notion.site/Emby-61bc45e4bdc841f78d297254e5f078d7"
     }
   ]
 }
